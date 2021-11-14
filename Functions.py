@@ -7,7 +7,7 @@ def print_board(board):
 
 
 def check_conditions(board):
-    """Returns True if either or the player fulfilled the winning conditions"""
+    """Returns True if either of the player fulfilled the winning conditions"""
     if (board['tl'] == board['tm'] == board['tr'] or
             board['cl'] == board['cm'] == board['cr'] or
             board['bl'] == board['bm'] == board['br'] or
